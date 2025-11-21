@@ -1,0 +1,49 @@
+/* CustomButton.css */
+
+.login-btn {
+  padding: 0.5rem 1.25rem !important; /* px-5 py-2 */
+  border: 2px solid #3b82f6 !important; /* border-blue-500 */
+  color: #60a5fa !important; /* text-blue-400 */
+  border-radius: 0.75rem !important; /* rounded-lg */
+  font-weight: 500 !important; /* font-medium */
+  transition: all 0.2s !important;
+}
+
+.login-btn:hover {
+  background-color: #3b82f6 !important; /* hover:bg-blue-500 */
+  color: #ffffff !important; /* hover:text-white */
+  transform: scale(0.95) !important; /* active:scale-95 */
+}
+
+.signup-btn {
+  padding: 0.5rem 1.25rem !important; /* px-5 py-2 */
+  background-color: #2563eb !important; /* bg-blue-600 */
+  color: #ffffff !important;
+  border-radius: 0.75rem !important; /* rounded-lg */
+  font-weight: 500 !important; /* font-medium */
+  transition: all 0.2s !important;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1) !important; /* shadow-md */
+}
+
+.signup-btn:hover {
+  background-color: #1d4ed8 !important; /* hover:bg-blue-700 */
+  box-shadow: 0 8px 15px rgba(0,0,0,0.2) !important; /* hover:shadow-lg */
+  transform: scale(0.95) !important; /* active:scale-95 */
+}
+
+/* Logout Button */
+.logout-btn {
+  padding: 0.5rem 1.25rem !important; /* px-5 py-2 */
+  background-color: #dc2626 !important; /* bg-red-600 */
+  color: #ffffff !important;
+  border-radius: 0.75rem !important; /* rounded-lg */
+  font-weight: 500 !important; /* font-medium */
+  transition: all 0.2s !important;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.12) !important; /* shadow-md */
+}
+
+.logout-btn:hover {
+  background-color: #b91c1c !important; /* hover:bg-red-700 */
+  box-shadow: 0 8px 15px rgba(0,0,0,0.25) !important; /* hover:shadow-lg */
+  transform: scale(0.95) !important; /* active:scale-95 */
+}
