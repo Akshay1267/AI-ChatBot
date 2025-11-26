@@ -6,7 +6,6 @@ import { signOut } from "firebase/auth";
 import { auth } from "../firebase/firebase";
 import { useAuth } from "../contexts/authContext.jsx";
 
-
 function Navbar() {
   const navigate = useNavigate();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

@@ -19,7 +19,7 @@ export const doSignInWithEmailAndPassword = (email, password) => {
 
 export const doSignInWithGoogle = () => {
   const provider = new GoogleAuthProvider();
-  return signInWithPopup(auth, provider); // POPUP FIX
+  return signInWithPopup(auth, provider);
 };
 
 export const doSignOut = () => auth.signOut();

@@ -1,5 +1,3 @@
-// import React, { useState, useEffect, useContext } from "react";
-// import { useAuth } from "../contexts/authContext.jsx";
 import React, { useState } from "react";
 import { doSignInWithEmailAndPassword, doSignInWithGoogle } from "../firebase/auth";
 import { Navigate } from "react-router-dom";

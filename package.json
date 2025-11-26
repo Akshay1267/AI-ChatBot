@@ -1,4 +1,7 @@
 {
+  "engines" : {
+    "node": "24.7.0"
+  },
   "name": "chatbot",
   "private": true,
   "version": "0.0.0",

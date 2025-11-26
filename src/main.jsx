@@ -9,7 +9,7 @@ import { AuthProvider } from "./contexts/authContext.jsx";   // ← Import provi
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <AuthProvider>        {/* ← Wrap here */}
+    <AuthProvider>
       <App />
     </AuthProvider>
   </StrictMode>

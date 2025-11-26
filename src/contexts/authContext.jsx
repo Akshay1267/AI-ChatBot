@@ -38,7 +38,7 @@ export function AuthProvider({ children }) {
     setLoading(false);
   }
 
-  // ✅ FIX — always render children
+  // always render children
   return (
     <AuthContext.Provider value={{ currentUser, userLoggedIn, loading }}>
       {children}

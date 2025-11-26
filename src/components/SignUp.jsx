@@ -1,9 +1,12 @@
 import React, { useState } from "react";
-import { doCreateUserWithEmailAndPassword, doSignInWithGoogle } from "../firebase/auth";
+import {
+  doCreateUserWithEmailAndPassword,
+  doSignInWithGoogle,
+} from "../firebase/auth";
 import { useNavigate } from "react-router-dom";
 
 export default function SignUp() {
-  const navigate = useNavigate(); // ✅ correct hook
+  const navigate = useNavigate(); 
 
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");

@@ -36,7 +36,6 @@ export default function Main() {
   };
 
   return (
-    // <div className="w-full flex justify-center items-start pt-10">
     <div className="w-full flex justify-center items-start mt-50 pt-10">
       <div className="max-w-lg w-full mx-auto p-6 border border-gray-300 rounded-lg shadow-md bg-white">
         <h2 className="text-center text-2xl font-semibold mb-3 mt-2">
